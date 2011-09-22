@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Company Logo.png</Source>
+      <Name>Company Logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\Company Logo.xnb</Output>
+      <Time>2011-09-17T00:57:33.1003247-04:00</Time>
+    </Item>
+    <Item>
+      <Source>singlePixel.png</Source>
+      <Name>singlePixel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\singlePixel.xnb</Output>
+      <Time>2011-09-17T00:03:18.9781995-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ChessTacticsMenuBackground.jpg</Source>
+      <Name>ChessTacticsMenuBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\ChessTacticsMenuBackground.xnb</Output>
+      <Time>2011-09-20T09:01:00.7510574-04:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2011-09-16T13:26:08.1723332-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Button.PNG</Source>
+      <Name>Button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\Button.xnb</Output>
+      <Time>2011-09-21T11:11:37.305794-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Clicked.PNG</Source>
+      <Name>Clicked</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\Clicked.xnb</Output>
+      <Time>2011-09-21T11:12:12.7498213-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Cursor.png</Source>
+      <Name>Cursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\Cursor.xnb</Output>
+      <Time>2011-09-21T11:13:05.9008614-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Hovering.PNG</Source>
+      <Name>Hovering</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\Hovering.xnb</Output>
+      <Time>2011-09-21T11:11:48.3784273-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTacticsContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-09-16T15:15:21.8402439-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

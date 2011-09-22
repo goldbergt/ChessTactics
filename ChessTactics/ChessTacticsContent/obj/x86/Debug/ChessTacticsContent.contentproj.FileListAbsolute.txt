@@ -1,0 +1,3 @@
+c:\users\noah\documents\visual studio 2010\Projects\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Noah\Desktop\Dropbox\Public\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\ResolveAssemblyReference.cache
