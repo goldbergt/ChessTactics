@@ -14,7 +14,7 @@ using Microsoft.Xna.Framework.Storage;
 namespace ChessTactics
 {
     /// <summary>
-    /// This is the main type for your game test comment
+    /// This is the main type for your game
     /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
