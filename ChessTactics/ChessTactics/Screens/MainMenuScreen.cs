@@ -1,71 +1,98 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.Graphics;
+#region File Description
+//-----------------------------------------------------------------------------
+// MainMenuScreen.cs
+//
+// Microsoft XNA Community Game Platform
+// Copyright (C) Microsoft Corporation. All rights reserved.
+//-----------------------------------------------------------------------------
+#endregion
+
+#region Using Statements
 using Microsoft.Xna.Framework;
+#endregion
 
 namespace ChessTactics
 {
-    public class MainMenuScreen : MenuScreen
+    /// <summary>
+    /// The main menu screen is the first thing displayed when the game starts up.
+    /// </summary>
+    class MainMenuScreen : MenuScreen
     {
-        MenuEntry entry1, entry2;
+        #region Initialization
+
+
+        /// <summary>
+        /// Constructor fills in the menu contents.
+        /// </summary>
         public MainMenuScreen()
+            : base("Chess Tactics")
         {
-            TransitionOffTime = TimeSpan.Zero;
+            // Create our menu entries.
+            MenuEntry playGameMenuEntry = new MenuEntry("Play");
+            MenuEntry optionsMenuEntry = new MenuEntry("Options");
+            MenuEntry exitMenuEntry = new MenuEntry("Quit");
 
-            //The selected and nonselected color
-            Selected = Color.Yellow;
-            NonSelected = Color.White;
+            // Hook up menu event handlers.
+            playGameMenuEntry.Selected += PlayGameMenuEntrySelected;
+            optionsMenuEntry.Selected += OptionsMenuEntrySelected;
+            exitMenuEntry.Selected += OnCancel;
 
-            Removed += new EventHandler(MainMenuRemove);
+            // Add entries to the menu.
+            MenuEntries.Add(playGameMenuEntry);
+            MenuEntries.Add(optionsMenuEntry);
+            MenuEntries.Add(exitMenuEntry);
         }
 
-        public override void Initialize()
-        {
-            BackgroundPosition = new Vector2(0, 0);
-            //Add the menu entries
-            //Change the string to change the entry titles
-            entry1 = new MenuEntry(this, "Logo Screen");
-            entry1.SetPosition(new Vector2(100, 200), true);
-            entry1.Selected += new EventHandler(Entry1Select);
-            MenuEntries.Add(entry1);
 
-            entry2 = new MenuEntry(this, "Quit");
-            entry2.SetRelativePosition(new Vector2(0, SpriteFont.LineSpacing + 10), entry1, true);
-            entry2.Selected += new EventHandler(Entry2Select);
-            MenuEntries.Add(entry2);
-        }
+        #endregion
 
-        public override void LoadContent()
+        #region Handle Input
+
+
+        /// <summary>
+        /// Event handler for when the Play Game menu entry is selected.
+        /// </summary>
+        void PlayGameMenuEntrySelected(object sender, PlayerIndexEventArgs e)
         {
-            //Load the font that this menu will use
-            ContentManager content = ScreenManager.Game.Content;
-            SpriteFont = content.Load<SpriteFont>("font");
-            BackgroundTexture = content.Load<Texture2D>("ChessTacticsMenuBackground");
+            LoadingScreen.Load(ScreenManager, true, e.PlayerIndex,
+                               new GameplayScreen());
         }
 
-        void MainMenuRemove(object sender, EventArgs e)
+
+        /// <summary>
+        /// Event handler for when the Options menu entry is selected.
+        /// </summary>
+        void OptionsMenuEntrySelected(object sender, PlayerIndexEventArgs e)
         {
-            MenuEntries.Clear();
+            ScreenManager.AddScreen(new OptionsMenuScreen(), e.PlayerIndex);
         }
 
-        void LogoScreenOnRemove(object sender, EventArgs e)
+
+        /// <summary>
+        /// When the user cancels the main menu, ask if they want to exit the sample.
+        /// </summary>
+        protected override void OnCancel(PlayerIndex playerIndex)
         {
-            MenuEntries.Clear();
-            new TestMenu();
+            const string message = "Are you sure you want to exit this sample?";
+
+            MessageBoxScreen confirmExitMessageBox = new MessageBoxScreen(message);
+
+            confirmExitMessageBox.Accepted += ConfirmExitMessageBoxAccepted;
+
+            ScreenManager.AddScreen(confirmExitMessageBox, playerIndex);
         }
-        void Entry1Select(object sender, EventArgs e)
+
+
+        /// <summary>
+        /// Event handler for when the user selects ok on the "are you sure
+        /// you want to exit" message box.
+        /// </summary>
+        void ConfirmExitMessageBoxAccepted(object sender, PlayerIndexEventArgs e)
         {
-            Removed += new EventHandler(LogoScreenOnRemove);
-            ExitScreen();
+            ScreenManager.Game.Exit();
         }
-        void Entry2Select(object sender, EventArgs e)
-        {
-            TransitionOffTime = TimeSpan.FromSeconds(1.5);
-            Removed += new EventHandler(MainMenuRemove);
-            ExitScreen();
-        }
+
+
+        #endregion
     }
 }

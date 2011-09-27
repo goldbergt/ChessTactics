@@ -1,3 +1,6 @@
 c:\users\noah\documents\visual studio 2010\Projects\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Noah\Desktop\Dropbox\Public\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Noah\Desktop\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\ResolveAssemblyReference.cache

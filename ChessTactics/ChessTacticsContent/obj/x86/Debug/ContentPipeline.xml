@@ -2,40 +2,13 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>Company Logo.png</Source>
-      <Name>Company Logo</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\Company Logo.xnb</Output>
-      <Time>2011-09-17T00:57:33.1003247-04:00</Time>
-    </Item>
-    <Item>
       <Source>singlePixel.png</Source>
       <Name>singlePixel</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\singlePixel.xnb</Output>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\singlePixel.xnb</Output>
       <Time>2011-09-17T00:03:18.9781995-04:00</Time>
-    </Item>
-    <Item>
-      <Source>ChessTacticsMenuBackground.jpg</Source>
-      <Name>ChessTacticsMenuBackground</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\ChessTacticsMenuBackground.xnb</Output>
-      <Time>2011-09-20T09:01:00.7510574-04:00</Time>
-    </Item>
-    <Item>
-      <Source>font.spritefont</Source>
-      <Name>font</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\font.xnb</Output>
-      <Time>2011-09-16T13:26:08.1723332-04:00</Time>
     </Item>
     <Item>
       <Source>Button.PNG</Source>
@@ -43,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\Button.xnb</Output>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\Button.xnb</Output>
       <Time>2011-09-21T11:11:37.305794-04:00</Time>
     </Item>
     <Item>
@@ -52,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\Clicked.xnb</Output>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\Clicked.xnb</Output>
       <Time>2011-09-21T11:12:12.7498213-04:00</Time>
     </Item>
     <Item>
@@ -61,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\Cursor.xnb</Output>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\Cursor.xnb</Output>
       <Time>2011-09-21T11:13:05.9008614-04:00</Time>
     </Item>
     <Item>
@@ -70,19 +43,82 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\Hovering.xnb</Output>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\Hovering.xnb</Output>
       <Time>2011-09-21T11:11:48.3784273-04:00</Time>
+    </Item>
+    <Item>
+      <Source>background.png</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2011-09-23T00:53:56.2111506-04:00</Time>
+    </Item>
+    <Item>
+      <Source>blank.png</Source>
+      <Name>blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\blank.xnb</Output>
+      <Time>2011-09-21T16:51:45.7443268-04:00</Time>
+    </Item>
+    <Item>
+      <Source>gradient.png</Source>
+      <Name>gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\gradient.xnb</Output>
+      <Time>2011-09-21T16:51:45.7943296-04:00</Time>
+    </Item>
+    <Item>
+      <Source>CompanyLogo.png</Source>
+      <Name>CompanyLogo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\CompanyLogo.xnb</Output>
+      <Time>2011-09-17T00:57:33.1003247-04:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2011-09-23T01:42:33.3420009-04:00</Time>
+    </Item>
+    <Item>
+      <Source>gamefont.spritefont</Source>
+      <Name>gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\gamefont.xnb</Output>
+      <Time>2011-09-23T01:39:59.4081964-04:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\menufont.xnb</Output>
+      <Time>2011-09-23T01:42:19.1871913-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
-      <TargetProfile>HiDef</TargetProfile>
+      <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTacticsContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Noah\Desktop\Dropbox\Project\ChessTactics\ChessTactics\ChessTactics\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\ChessTacticsContent\</RootDirectory>
+      <LoggerRootDirectory>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\ChessTacticsContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\Chess Tactics Archive\2.0\ChessTactics\ChessTactics\GameStateManagement\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

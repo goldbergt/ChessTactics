@@ -30,7 +30,7 @@ namespace ChessTactics
             spriteBatch.Draw(this.tex, this.pos, Color.White); //Draw it using the batch.
         }
 
-        public bool ButtonClick(Button b)
+        public bool ButtonClick(ButtonObject b)
         {
             if (this.pos.X >= b.position.X // To the right of the left side
             && this.pos.X < b.position.X + b.tex.Width //To the left of the right side
